@@ -8,7 +8,7 @@ const config = require('../config.json');
 const Downloader = require('./Modules/Downloader.js');
 
 const dl = new Downloader(config);
-dl.downloadFromURL("https://mega.nz/#!aHQFwSAS!j9uyILaeDc-0zb8MbSg4bGTYCmy_-TrDEiYMKUqIklE").then(d=>{
+dl.downloadFromURL("https://mega.nz/#F!j0hFyQCZ!p0LlUl3s0S-6aSq5du6HCQ").then(d=>{
     console.log(d);
 }).catch(e=>{
     console.log(e);

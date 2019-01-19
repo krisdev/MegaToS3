@@ -9,7 +9,7 @@
   "private": false,
   "dependencies": {
     "fs": "^0.0.1-security",
-    "mega": "^0.2.0",
+    "megajs": "^0.16.0",
     "progress": "^2.0.3"
   }
 }

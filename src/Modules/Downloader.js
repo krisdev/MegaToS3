@@ -5,7 +5,7 @@
 ///////////////////////////////////////
 
 const fs = require('fs');
-const mega = require('mega');
+const mega = require('megajs');
 const ProgressBar = require('progress');
 
 class Downloader {
@@ -16,8 +16,14 @@ class Downloader {
 
     downloadFromURL(url) {
         return new Promise((resolve, reject)=>{
-            mega.file(url).loadAttributes((err, file)=>{
+            const folder = mega.file(url);
+
+            folder.loadAttributes((err, folder)=>{
                 if (err) reject(err);
+                console.log(folder);
+                console.log(folder.name);
+                console.log(folder.children.length);
+
                 console.log("File:", file.name, file.size + 'B');
 
                 var dl = file.download();
