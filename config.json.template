@@ -1,4 +1,8 @@
 {
+    "mega":{
+        "email": "",
+        "password": ""
+    },
     "s3":{
         "access_key": "",
         "secret_key": "",

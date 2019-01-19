@@ -6,5 +6,10 @@
   "repository": "https://github.com/krisdev/MegaToS3",
   "author": "krisdev",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "mega": "^0.2.0",
+    "progress": "^2.0.3"
+  }
 }
