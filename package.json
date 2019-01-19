@@ -1,0 +1,10 @@
+{
+  "name": "MegaToS3",
+  "version": "1.0.0",
+  "description": "Download Mega files to S3",
+  "main": "src/index.js",
+  "repository": "https://github.com/krisdev/MegaToS3",
+  "author": "krisdev",
+  "license": "MIT",
+  "private": false
+}
